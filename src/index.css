@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+.wikipedia-font {
+  font-family: 'EB Garamond', serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+}
+
+:root {
+  font-family: "Ubuntu Variable", "Ubuntu", -apple-system, "Segoe UI", "Roboto", "Oxygen", 
+               "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  background-color: white;
+  color: black;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background: transparent; 
+  border-radius: 10px; 
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #333333; 
+  border-radius: 10px; 
+  height: 50px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #333333;
+}
